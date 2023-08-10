@@ -1,7 +1,7 @@
-@use 'style-dictionary/build/scss/_variables.scss' as tokens; 
+@import 'style-dictionary/build/scss/_variables.scss'; 
 
 .test {
-  color: tokens.$color-base-red;
+  color: $color-base-red;
 }
   
 
